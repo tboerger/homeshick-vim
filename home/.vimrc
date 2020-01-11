@@ -5,13 +5,13 @@ filetype off
 let iCanHazVundle=1
 
 if !filereadable(expand('~/.vim/bundle/vundle/README.md'))
-  echo "Installing Vundle..."
-  echo ""
+	echo "Installing Vundle..."
+	echo ""
 
-  silent !mkdir -p ~/.vim/bundle
-  silent !git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle
+	silent !mkdir -p ~/.vim/bundle
+	silent !git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle
 
-  let iCanHazVundle=0
+	let iCanHazVundle=0
 endif
 
 set rtp+=~/.vim/bundle/vundle
@@ -46,10 +46,10 @@ Plugin 'tpope/vim-vividchalk'
 call vundle#end()
 
 if iCanHazVundle == 0
-  echo "Installing Plugin..."
-  echo ""
+	echo "Installing Plugin..."
+	echo ""
 
-  :PluginInstall
+	:PluginInstall
 endif
 "}
 
@@ -157,8 +157,8 @@ set pastetoggle=<F11>
 
 " incsearch plugin {
 hi search ctermfg=red ctermbg=yellow
-map /  <Plug>(incsearch-forward)
-map ?  <Plug>(incsearch-backward)
+map /	<Plug>(incsearch-forward)
+map ?	<Plug>(incsearch-backward)
 map g/ <Plug>(incsearch-stay)
 "}
 
@@ -251,7 +251,7 @@ let g:UltiSnipsSnippetDirectories= ['bundle/ultisnips/UltiSnips']
 
 " Colors config for EasyMotion {
 hi link EasyMotionTarget ErrorMsg
-hi link EasyMotionShade  Comment
+hi link EasyMotionShade	Comment
 "}
 
 
@@ -287,31 +287,31 @@ let g:airline#extensions#whitespace#enable=1
 
 " Tagbar Go {
 let g:tagbar_type_go = {
-    \ 'ctagstype' : 'go',
-    \ 'kinds'     : [
-        \ 'p:package',
-        \ 'i:imports:1',
-        \ 'c:constants',
-        \ 'v:variables',
-        \ 't:types',
-        \ 'n:interfaces',
-        \ 'w:fields',
-        \ 'e:embedded',
-        \ 'm:methods',
-        \ 'r:constructor',
-        \ 'f:functions'
-    \ ],
-    \ 'sro' : '.',
-    \ 'kind2scope' : {
-        \ 't' : 'ctype',
-        \ 'n' : 'ntype'
-    \ },
-    \ 'scope2kind' : {
-        \ 'ctype' : 't',
-        \ 'ntype' : 'n'
-    \ },
-    \ 'ctagsbin'  : 'gotags',
-    \ 'ctagsargs' : '-sort -silent'
+		\ 'ctagstype' : 'go',
+		\ 'kinds'		 : [
+				\ 'p:package',
+				\ 'i:imports:1',
+				\ 'c:constants',
+				\ 'v:variables',
+				\ 't:types',
+				\ 'n:interfaces',
+				\ 'w:fields',
+				\ 'e:embedded',
+				\ 'm:methods',
+				\ 'r:constructor',
+				\ 'f:functions'
+		\ ],
+		\ 'sro' : '.',
+		\ 'kind2scope' : {
+				\ 't' : 'ctype',
+				\ 'n' : 'ntype'
+		\ },
+		\ 'scope2kind' : {
+				\ 'ctype' : 't',
+				\ 'ntype' : 'n'
+		\ },
+		\ 'ctagsbin'	: 'gotags',
+		\ 'ctagsargs' : '-sort -silent'
 \ }
 "}
 
@@ -323,7 +323,7 @@ map <C-n> :NERDTreeToggle<CR>
 
 " vim-easy-align {
 " For visual mode (e.g. vip<Enter>)
-vmap <Enter>   <Plug>(EasyAlign)
+vmap <Enter>	 <Plug>(EasyAlign)
 
 " For normal mode, with Vim movement (e.g. <Leader>aip)
 nmap <Leader>a <Plug>(EasyAlign)
