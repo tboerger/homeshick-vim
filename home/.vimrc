@@ -76,13 +76,6 @@ set scrolloff=3
 set sidescrolloff=5
 "}
 
-" encoding related {
-set enc=utf-8
-set fenc=utf-8
-set termencoding=utf-8
-set fileencodings=utf-8,latin1,default
-"}
-
 " bell related {
 set noerrorbells
 set vb t_vb=
