@@ -20,6 +20,7 @@ call vundle#begin()
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'ervandew/supertab'
 Plugin 'junegunn/vim-easy-align'
+Plugin 'nordtheme/vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'Raimondi/delimitMate'
 Plugin 'tpope/vim-vividchalk'
@@ -111,7 +112,7 @@ syntax on
 "}
 
 " select scheme {
-colorscheme vividchalk
+colorscheme nord
 "}
 
 " folding mapping {
