@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/tboerger/homeshick-vim/compare/v1.0.0...v1.1.0) (2026-01-26)
+
+### Features
+
+* add more files to editorconfig ([d095b7b](https://github.com/tboerger/homeshick-vim/commit/d095b7b8fc380a28ec89f695a48cac89a92df405))
+* do not pin github actions anymore ([055d0ab](https://github.com/tboerger/homeshick-vim/commit/055d0abd0e419df45c8e183f9b33af35b1529335))
+
 ## 1.0.0 (2024-11-24)
 
 
