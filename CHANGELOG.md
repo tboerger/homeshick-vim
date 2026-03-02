@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0](https://github.com/tboerger/homeshick-vim/compare/v1.1.0...v1.2.0) (2026-03-02)
+
+### Features
+
+* enable automerge for lockfile maintenance prs ([800327d](https://github.com/tboerger/homeshick-vim/commit/800327d68e966db1bc0362edbb964634b71fefc5))
+
 ## [1.1.0](https://github.com/tboerger/homeshick-vim/compare/v1.0.0...v1.1.0) (2026-01-26)
 
 ### Features
